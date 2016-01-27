@@ -1,76 +1,103 @@
-hero,type,cost,curve,card
-warlock,None,5440,"['2', '3', '3', '3', '11', '4', '1', '3']","['sacrificial-pact', 'mortal-coil', 'power-overwhelming', 'imp-gang-boss', 'hellfire', 'imp-losion', 'dreadsteed', 'voidcaller', 'siphon-soul', 'twisting-nether', 'lord-jaraxxus', 'malganis', 'abusive-sergeant', 'ironbeak-owl', 'unstable-ghoul', 'big-game-hunter', 'baron-rivendare', 'defender-of-argus', 'refreshment-vendor', 'antique-healbot', 'sludge-belcher']"
-hunter,Midrange,4700,"['2', '2', '10', '7', '4', '2', '2', '1']","['hunters-mark', 'webspinner', 'bear-trap', 'flare', 'snake-trap', 'eaglehorn-bow', 'animal-companion', 'unleash-the-hounds', 'dreadscale', 'houndmaster', 'ram-wrangler', 'savannah-highmane', 'haunted-creeper', 'knife-juggler', 'mad-scientist', 'piloted-shredder', 'loatheb', 'dr-boom', 'webspinner', 'loatheb', 'bear-trap', 'stampeding-kodo']"
-druid,Control,7260,"['2', '2', '5', '4', '5', '5', '0', '7']","['innervate', 'wild-growth', 'wrath', 'swipe', 'keeper-of-the-grove', 'druid-of-the-claw', 'ancient-of-lore', 'zombie-chow', 'faerie-dragon', 'big-game-hunter', 'blackwing-technician', 'brann-bronzebeard', 'twilight-guardian', 'azure-drake', 'blackwing-corruptor', 'dr-boom', 'chromaggus', 'alexstrasza', 'nefarian', 'ysera']"
-warlock,Control,8560,"['0', '2', '5', '4', '7', '3', '4', '5']","['mortal-coil', 'darkbomb', 'dark-peddler', 'demonwrath', 'imp-gang-boss', 'hellfire', 'imp-losion', 'shadowflame', 'voidcaller', 'doomguard', 'siphon-soul', 'twisting-nether', 'lord-jaraxxus', 'malganis', 'zombie-chow', 'acidic-swamp-ooze', 'ironbeak-owl', 'sunfury-protector', 'big-game-hunter', 'mind-control-tech', 'defender-of-argus', 'piloted-shredder', 'twilight-drake', 'antique-healbot', 'sludge-belcher', 'emperor-thaurissan', 'reno-jackson', 'sylvanas-windrunner', 'dr-boom', 'molten-giant', 'mind-control-tech', 'siphon-soul', 'earthen-ring-farseer', 'refreshment-vendor']"
-warrior,Aggro,860,"['0', '7', '8', '6', '7', '2', '0', '0']","['fiery-war-axe', 'heroic-strike', 'deaths-bite', 'mortal-strike', 'korkron-elite', 'arcanite-reaper', 'abusive-sergeant', 'leper-gnome', 'sir-finley-mrrgglton', 'southsea-deckhand', 'ironbeak-owl', 'loot-hoarder', 'arcane-golem', 'argent-horserider', 'wolfrider', 'dread-corsair']"
-shaman,Combo,10480,"['0', '2', '7', '14', '2', '0', '0', '5']","['rockbiter-weapon', 'ancestral-knowledge', 'lava-shock', 'windfury', 'elemental-destruction', 'far-sight', 'feral-spirit', 'healing-wave', 'hex', 'lightning-storm', 'ancestors-call', 'alakir-the-windlord', 'sir-finley-mrrgglton', 'doomsayer', 'alarm-o-bot', 'ragnaros-the-firelord', 'majordomo-executus', 'ysera', 'deathwing']"
-priest,Control,3460,"['0', '6', '5', '5', '2', '5', '7', '0']","['power-word-shield', 'northshire-cleric', 'shadow-word-pain', 'museum-curator', 'shrinkmeister', 'shadow-word-death', 'velens-chosen', 'shadow-madness', 'excavated-evil', 'holy-nova', 'entomb', 'lightbomb', 'cabal-shadow-priest', 'zombie-chow', 'deathlord', 'elise-starseeker', 'sludge-belcher', 'justicar-trueheart']"
-rogue,Combo,5020,"['4', '4', '10', '5', '2', '2', '2', '1']","['backstab', 'preparation', 'deadly-poison', 'sinister-strike', 'blade-flurry', 'eviscerate', 'sap', 'shiv', 'cutpurse', 'fan-of-knives', 'si-7-agent', 'tomb-pillager', 'bloodmage-thalnos', 'earthen-ring-farseer', 'azure-drake', 'gadgetzan-auctioneer', 'malygos']"
-mage,Combo,5420,"['0', '2', '9', '13', '2', '0', '3', '1']","['ice-lance', 'frostbolt', 'arcane-intellect', 'forgotten-torch', 'frost-nova', 'ice-barrier', 'ice-block', 'fireball', 'blizzard', 'bloodmage-thalnos', 'doomsayer', 'loot-hoarder', 'mad-scientist', 'acolyte-of-pain', 'coldlight-oracle', 'emperor-thaurissan', 'alexstrasza']"
-warlock,Control,3840,"['0', '6', '5', '5', '6', '6', '1', '1']","['mortal-coil', 'soulfire', 'darkbomb', 'dark-peddler', 'imp-gang-boss', 'hellfire', 'abusive-sergeant', 'zombie-chow', 'ironbeak-owl', 'big-game-hunter', 'brann-bronzebeard', 'twilight-drake', 'twilight-guardian', 'antique-healbot', 'azure-drake', 'blackwing-corruptor', 'emperor-thaurissan', 'malygos']"
-priest,None,7100,"['0', '2', '4', '4', '5', '6', '8', '1']","['holy-smite', 'power-word-glory', 'resurrect', 'shadow-word-pain', 'shadow-word-death', 'thoughtsteal', 'mass-dispel', 'shadow-madness', 'excavated-evil', 'holy-nova', 'entomb', 'holy-fire', 'lightbomb', 'mind-control', 'tournament-medic', 'faceless-manipulator', 'nexus-champion-saraad', 'bolf-ramshield', 'justicar-trueheart']"
-shaman,Aggro,2000,"['0', '12', '10', '6', '0', '2', '0', '0']","['earth-shock', 'lightning-bolt', 'rockbiter-weapon', 'tunnel-trogg', 'ancestral-knowledge', 'crackle', 'lava-shock', 'totem-golem', 'feral-spirit', 'lava-burst', 'doomhammer', 'abusive-sergeant', 'leper-gnome', 'sir-finley-mrrgglton', 'knife-juggler', 'argent-horserider']"
-hunter,Aggro,1160,"['0', '6', '14', '10', '0', '0', '0', '0']","['glaivezooka', 'explosive-trap', 'quick-shot', 'eaglehorn-bow', 'animal-companion', 'kill-command', 'unleash-the-hounds', 'abusive-sergeant', 'leper-gnome', 'worgen-infiltrator', 'haunted-creeper', 'ironbeak-owl', 'knife-juggler', 'mad-scientist', 'arcane-golem']"
-warlock,Control,6480,"['0', '2', '8', '2', '8', '3', '1', '6']","['mortal-coil', 'darkbomb', 'hellfire', 'shadowflame', 'lord-jaraxxus', 'ancient-watcher', 'ironbeak-owl', 'sunfury-protector', 'big-game-hunter', 'earthen-ring-farseer', 'defender-of-argus', 'twilight-drake', 'antique-healbot', 'sludge-belcher', 'emperor-thaurissan', 'dr-boom', 'sea-giant', 'mountain-giant', 'molten-giant']"
-warrior,Control,4880,"['2', '4', '8', '3', '4', '5', '1', '3']","['inner-rage', 'execute', 'whirlwind', 'fiery-war-axe', 'battle-rage', 'slam', 'armorsmith', 'frothing-berserker', 'deaths-bite', 'grommash-hellscream', 'unstable-ghoul', 'wild-pyromancer', 'acolyte-of-pain', 'twilight-guardian', 'azure-drake', 'blackwing-corruptor', 'grim-patron', 'drakonid-crusher', 'dr-boom', 'chromaggus', 'drakonid-crusher', 'frothing-berserker']"
-mage,Control,7320,"['0', '2', '9', '9', '2', '1', '3', '4']","['ice-lance', 'frostbolt', 'arcane-intellect', 'frost-nova', 'ice-barrier', 'ice-block', 'fireball', 'blizzard', 'flamestrike', 'archmage-antonidas', 'pyroblast', 'bloodmage-thalnos', 'doomsayer', 'loot-hoarder', 'mad-scientist', 'acolyte-of-pain', 'antique-healbot', 'emperor-thaurissan', 'alexstrasza']"
-druid,Aggro,1740,"['2', '4', '12', '6', '6', '0', '0', '0']","['innervate', 'mark-of-the-wild', 'power-of-the-wild', 'savage-roar', 'keeper-of-the-grove', 'abusive-sergeant', 'dragon-egg', 'sir-finley-mrrgglton', 'annoy-o-tron', 'echoing-ooze', 'haunted-creeper', 'lance-carrier', 'nerubian-egg', 'hobgoblin', 'imp-master', 'cult-master', 'defender-of-argus', 'jeeves']"
-paladin,Aggro,5620,"['0', '8', '6', '5', '6', '1', '2', '2']","['avenge', 'competitive-spirit', 'noble-sacrifice', 'redemption', 'argent-protector', 'shielded-minibot', 'coghammer', 'divine-favor', 'muster-for-battle', 'aldor-peacekeeper', 'blessing-of-kings', 'consecration', 'keeper-of-uldaman', 'mysterious-challenger', 'tirion-fordring', 'secretkeeper', 'haunted-creeper', 'knife-juggler', 'piloted-shredder', 'loatheb', 'dr-boom']"
-druid,Midrange,7060,"['1', '3', '6', '4', '5', '4', '4', '3']","['innervate', 'living-roots', 'raven-idol', 'wild-growth', 'wrath', 'darnassus-aspirant', 'savage-roar', 'mounted-raptor', 'swipe', 'keeper-of-the-grove', 'savage-combatant', 'druid-of-the-claw', 'force-of-nature', 'ancient-of-lore', 'ancient-of-war', 'zombie-chow', 'bloodmage-thalnos', 'haunted-creeper', 'knife-juggler', 'big-game-hunter', 'shade-of-naxxramas', 'piloted-shredder', 'azure-drake', 'loatheb', 'sludge-belcher', 'emperor-thaurissan', 'reno-jackson', 'the-black-knight', 'dr-boom']"
-warrior,Aggro,2440,"['0', '7', '7', '7', '6', '3', '0', '0']","['upgrade', 'fiery-war-axe', 'heroic-strike', 'bash', 'deaths-bite', 'mortal-strike', 'korkron-elite', 'arcanite-reaper', 'abusive-sergeant', 'leper-gnome', 'sir-finley-mrrgglton', 'southsea-deckhand', 'bluegill-warrior', 'ironbeak-owl', 'arcane-golem', 'argent-horserider', 'wolfrider', 'leeroy-jenkins']"
-mage,None,7700,"['0', '3', '6', '5', '4', '4', '4', '4']","['arcane-missiles', 'mana-wyrm', 'arcane-explosion', 'flamecannon', 'frostbolt', 'unstable-portal', 'sorcerers-apprentice', 'arcane-intellect', 'duplicate', 'effigy', 'mirror-entity', 'flamewaker', 'echo-of-medivh', 'fireball', 'polymorph', 'water-elemental', 'ethereal-conjurer', 'flamestrike', 'zombie-chow', 'mad-scientist', 'antique-healbot', 'azure-drake', 'sludge-belcher', 'piloted-sky-golem', 'reno-jackson', 'sylvanas-windrunner', 'toshley', 'dr-boom', 'ragnaros-the-firelord', 'arch-thief-rafaam']"
-warlock,Midrange,3000,"['0', '8', '9', '2', '6', '3', '0', '2']","['power-overwhelming', 'voidwalker', 'dark-peddler', 'imp-gang-boss', 'imp-losion', 'voidcaller', 'doomguard', 'abusive-sergeant', 'undertaker', 'haunted-creeper', 'ironbeak-owl', 'knife-juggler', 'nerubian-egg', 'defender-of-argus', 'loatheb', 'dr-boom', 'sea-giant']"
-warrior,Combo,540,"['2', '4', '11', '6', '3', '3', '1', '0']","['inner-rage', 'execute', 'whirlwind', 'fiery-war-axe', 'battle-rage', 'rampage', 'slam', 'armorsmith', 'cruel-taskmaster', 'charge', 'shield-block', 'deaths-bite', 'unstable-ghoul', 'acolyte-of-pain', 'raging-worgen', 'gnomish-inventor', 'grim-patron', 'loatheb', 'emperor-thaurissan']"
-hunter,Midrange,2700,"['1', '0', '13', '8', '4', '1', '2', '1']","['hunters-mark', 'bear-trap', 'explosive-trap', 'flare', 'freezing-trap', 'kings-elekk', 'eaglehorn-bow', 'animal-companion', 'kill-command', 'unleash-the-hounds', 'houndmaster', 'savannah-highmane', 'haunted-creeper', 'ironbeak-owl', 'knife-juggler', 'mad-scientist', 'piloted-shredder', 'loatheb', 'dr-boom', 'knife-juggler', 'webspinner']"
-mage,Combo,7200,"['0', '4', '8', '6', '3', '4', '1', '4']","['arcane-missiles', 'mana-wyrm', 'flamecannon', 'frostbolt', 'unstable-portal', 'sorcerers-apprentice', 'arcane-intellect', 'mirror-entity', 'flamewaker', 'fireball', 'ethereal-conjurer', 'archmage-antonidas', 'rhonin', 'piloted-shredder', 'antique-healbot', 'azure-drake', 'emperor-thaurissan', 'dr-boom', 'malygos', 'antique-healbot', 'emperor-thaurissan', 'mirror-image', 'loatheb']"
-paladin,Midrange,5340,"['0', '8', '6', '4', '5', '2', '3', '2']","['avenge', 'competitive-spirit', 'noble-sacrifice', 'redemption', 'equality', 'shielded-minibot', 'coghammer', 'divine-favor', 'muster-for-battle', 'aldor-peacekeeper', 'truesilver-champion', 'blessing-of-kings', 'consecration', 'keeper-of-uldaman', 'mysterious-challenger', 'tirion-fordring', 'secretkeeper', 'zombie-chow', 'acidic-swamp-ooze', 'haunted-creeper', 'ironbeak-owl', 'knife-juggler', 'piloted-shredder', 'loatheb', 'sludge-belcher', 'reno-jackson', 'dr-boom', 'equality', 'argent-protector']"
-warlock,Control,7400,"['1', '3', '4', '3', '9', '3', '3', '4']","['sacrificial-pact', 'mortal-coil', 'power-overwhelming', 'darkbomb', 'dark-peddler', 'demonwrath', 'imp-gang-boss', 'hellfire', 'imp-losion', 'shadowflame', 'dreadsteed', 'voidcaller', 'siphon-soul', 'twisting-nether', 'lord-jaraxxus', 'malganis', 'zombie-chow', 'acidic-swamp-ooze', 'ironbeak-owl', 'big-game-hunter', 'baron-rivendare', 'defender-of-argus', 'piloted-shredder', 'antique-healbot', 'loatheb', 'sludge-belcher', 'reno-jackson', 'sylvanas-windrunner', 'molten-giant', 'imp-losion', 'dr-boom']"
-mage,Control,4640,"['0', '0', '6', '12', '5', '1', '2', '4']","['arcane-intellect', 'frost-nova', 'ice-barrier', 'ice-block', 'cone-of-cold', 'polymorph', 'animated-armor', 'blizzard', 'flamestrike', 'doomsayer', 'garrison-commander', 'mad-scientist', 'acolyte-of-pain', 'illuminator', 'antique-healbot', 'alexstrasza', 'majordomo-executus']"
-mage,Control,9080,"['0', '0', '5', '7', '4', '5', '6', '3']","['frostbolt', 'arcane-intellect', 'duplicate', 'forgotten-torch', 'frost-nova', 'ice-block', 'echo-of-medivh', 'fireball', 'polymorph', 'ethereal-conjurer', 'blizzard', 'coldarra-drake', 'flamestrike', 'doomsayer', 'explosive-sheep', 'jeweled-scarab', 'mad-scientist', 'big-game-hunter', 'brann-bronzebeard', 'twilight-guardian', 'antique-healbot', 'azure-drake', 'blackwing-corruptor', 'sludge-belcher', 'emperor-thaurissan', 'justicar-trueheart', 'reno-jackson', 'sylvanas-windrunner', 'alexstrasza', 'deathwing', 'deathwing', 'molten-giant']"
-priest,Control,3840,"['2', '8', '4', '7', '2', '1', '6', '0']","['circle-of-healing', 'flash-heal', 'power-word-shield', 'northshire-cleric', 'resurrect', 'shadow-word-death', 'thoughtsteal', 'auchenai-soulpriest', 'holy-nova', 'entomb', 'lightbomb', 'cabal-shadow-priest', 'injured-kvaldir', 'wild-pyromancer', 'deathlord', 'injured-blademaster', 'justicar-trueheart']"
-shaman,Aggro,1880,"['0', '12', '10', '6', '0', '2', '0', '0']","['earth-shock', 'lightning-bolt', 'rockbiter-weapon', 'tunnel-trogg', 'ancestral-knowledge', 'crackle', 'lava-shock', 'totem-golem', 'feral-spirit', 'lava-burst', 'doomhammer', 'abusive-sergeant', 'leper-gnome', 'sir-finley-mrrgglton', 'flame-juggler', 'argent-horserider']"
-mage,Aggro,2340,"['0', '6', '9', '10', '3', '0', '0', '2']","['arcane-missiles', 'mirror-image', 'mana-wyrm', 'flamecannon', 'frostbolt', 'unstable-portal', 'sorcerers-apprentice', 'arcane-intellect', 'counterspell', 'forgotten-torch', 'mirror-entity', 'flamewaker', 'fireball', 'polymorph', 'flamestrike', 'archmage-antonidas', 'mad-scientist', 'gnomish-experimenter', 'flamecannon', 'wild-pyromancer']"
-priest,Midrange,6580,"['0', '6', '4', '5', '3', '7', '3', '2']","['power-word-shield', 'northshire-cleric', 'twilight-whelp', 'museum-curator', 'wyrmrest-agent', 'shadow-word-death', 'velens-chosen', 'shadow-madness', 'holy-nova', 'voljin', 'entomb', 'lightbomb', 'blackwing-technician', 'twilight-guardian', 'azure-drake', 'blackwing-corruptor', 'dr-boom', 'ysera']"
-shaman,Control,6400,"['0', '3', '6', '9', '2', '4', '2', '4']","['earth-shock', 'tunnel-trogg', 'ancestral-knowledge', 'lava-shock', 'totem-golem', 'feral-spirit', 'healing-wave', 'hex', 'lightning-storm', 'fire-elemental', 'the-mistcaller', 'jeweled-scarab', 'blackwing-technician', 'brann-bronzebeard', 'twilight-guardian', 'antique-healbot', 'azure-drake', 'blackwing-corruptor', 'chillmaw', 'chromaggus', 'nefarian', 'ysera', 'chromaggus', 'blackwing-corruptor']"
-hunter,Control,6280,"['1', '1', '9', '8', '3', '3', '3', '2']","['hunters-mark', 'bear-trap', 'explosive-trap', 'quick-shot', 'kings-elekk', 'eaglehorn-bow', 'animal-companion', 'powershot', 'unleash-the-hounds', 'houndmaster', 'savannah-highmane', 'sir-finley-mrrgglton', 'doomsayer', 'haunted-creeper', 'ironbeak-owl', 'jeweled-scarab', 'mad-scientist', 'big-game-hunter', 'brann-bronzebeard', 'deathlord', 'earthen-ring-farseer', 'defender-of-argus', 'elise-starseeker', 'antique-healbot', 'harrison-jones', 'sludge-belcher', 'justicar-trueheart', 'reno-jackson', 'dr-boom', 'arch-thief-rafaam', 'doomsayer', 'kill-command']"
-hunter,Midrange,1300,"['2', '4', '7', '9', '3', '2', '3', '0']","['hunters-mark', 'webspinner', 'kings-elekk', 'animal-companion', 'kill-command', 'unleash-the-hounds', 'desert-camel', 'stablemaster', 'houndmaster', 'ram-wrangler', 'ball-of-spiders', 'savannah-highmane', 'injured-kvaldir', 'zombie-chow', 'haunted-creeper', 'ironbeak-owl', 'jeweled-scarab', 'tomb-spider', 'stampeding-kodo', 'zombie-chow', 'tomb-spider', 'webspinner', 'ram-wrangler']"
-paladin,Midrange,6920,"['0', '7', '6', '4', '6', '2', '2', '3']","['avenge', 'competitive-spirit', 'noble-sacrifice', 'redemption', 'repentance', 'shielded-minibot', 'coghammer', 'muster-for-battle', 'truesilver-champion', 'consecration', 'keeper-of-uldaman', 'mysterious-challenger', 'tirion-fordring', 'haunted-creeper', 'knife-juggler', 'imp-master', 'piloted-shredder', 'loatheb', 'sludge-belcher', 'dr-boom', 'ragnaros-the-firelord']"
-paladin,Combo,4440,"['0', '0', '10', '6', '5', '5', '0', '4']","['equality', 'aldor-peacekeeper', 'truesilver-champion', 'consecration', 'solemn-vigil', 'eadric-the-pure', 'lay-on-hands', 'anyfin-can-happen', 'bluegill-warrior', 'doomsayer', 'loot-hoarder', 'wild-pyromancer', 'acolyte-of-pain', 'murloc-warleader', 'old-murk-eye', 'antique-healbot', 'sludge-belcher', 'eadric-the-pure', 'tirion-fordring']"
-rogue,Control,9500,"['2', '1', '6', '5', '4', '6', '3', '3']","['backstab', 'preparation', 'deadly-poison', 'blade-flurry', 'eviscerate', 'sap', 'burgle', 'fan-of-knives', 'edwin-vancleef', 'si-7-agent', 'tomb-pillager', 'assassins-blade', 'dark-iron-skulker', 'sprint', 'bloodmage-thalnos', 'ironbeak-owl', 'loot-hoarder', 'big-game-hunter', 'gnomish-inventor', 'piloted-shredder', 'violet-teacher', 'antique-healbot', 'azure-drake', 'loatheb', 'sludge-belcher', 'emperor-thaurissan', 'reno-jackson', 'sylvanas-windrunner', 'dr-boom', 'ragnaros-the-firelord']"
-hunter,Aggro,2660,"['0', '6', '12', '11', '0', '1', '0', '0']","['glaivezooka', 'explosive-trap', 'quick-shot', 'eaglehorn-bow', 'animal-companion', 'kill-command', 'unleash-the-hounds', 'abusive-sergeant', 'leper-gnome', 'worgen-infiltrator', 'huge-toad', 'ironbeak-owl', 'knife-juggler', 'mad-scientist', 'arcane-golem', 'argent-horserider', 'leeroy-jenkins']"
-warrior,Control,3240,"['0', '6', '8', '6', '3', '2', '3', '2']","['execute', 'shield-slam', 'whirlwind', 'fiery-war-axe', 'slam', 'armorsmith', 'cruel-taskmaster', 'bash', 'shield-block', 'arcanite-reaper', 'shieldmaiden', 'acolyte-of-pain', 'piloted-shredder', 'senjin-shieldmasta', 'antique-healbot', 'emperor-thaurissan', 'dr-boom', 'north-sea-kraken']"
-paladin,Midrange,5320,"['0', '7', '6', '4', '7', '2', '2', '2']","['avenge', 'competitive-spirit', 'noble-sacrifice', 'redemption', 'repentance', 'shielded-minibot', 'coghammer', 'divine-favor', 'muster-for-battle', 'blessing-of-kings', 'consecration', 'keeper-of-uldaman', 'mysterious-challenger', 'tirion-fordring', 'haunted-creeper', 'knife-juggler', 'piloted-shredder', 'loatheb', 'sludge-belcher', 'dr-boom', 'consecration', 'defender-of-argus']"
-druid,Combo,2300,"['0', '7', '10', '4', '7', '0', '2', '0']","['living-roots', 'mark-of-the-wild', 'power-of-the-wild', 'savage-roar', 'mounted-raptor', 'soul-of-the-forest', 'keeper-of-the-grove', 'starfire', 'abusive-sergeant', 'dragon-egg', 'sir-finley-mrrgglton', 'echoing-ooze', 'haunted-creeper', 'nerubian-egg', 'cult-master', 'defender-of-argus', 'sylvanas-windrunner']"
-druid,None,4320,"['2', '2', '4', '5', '6', '5', '3', '3']","['innervate', 'living-roots', 'wild-growth', 'wrath', 'savage-roar', 'swipe', 'keeper-of-the-grove', 'druid-of-the-claw', 'force-of-nature', 'ancient-of-lore', 'big-game-hunter', 'shade-of-naxxramas', 'piloted-shredder', 'azure-drake', 'loatheb', 'emperor-thaurissan', 'dr-boom']"
-warrior,Midrange,8920,"['0', '2', '12', '4', '2', '3', '2', '5']","['execute', 'fiery-war-axe', 'battle-rage', 'bolster', 'slam', 'armorsmith', 'fierce-monkey', 'brawl', 'varian-wrynn', 'annoy-o-tron', 'deathlord', 'senjin-shieldmasta', 'sludge-belcher', 'emperor-thaurissan', 'sylvanas-windrunner', 'troggzor-the-earthinator', 'kelthuzad', 'ragnaros-the-firelord', 'ysera', 'slam', 'bash']"
-shaman,Control,3260,"['0', '5', '8', '7', '3', '5', '2', '0']","['earth-shock', 'tunnel-trogg', 'ancestral-knowledge', 'lava-shock', 'totem-golem', 'hex', 'lightning-storm', 'tuskarr-totemic', 'charged-hammer', 'thunder-bluff-valiant', 'fire-elemental', 'zombie-chow', 'acidic-swamp-ooze', 'jeweled-scarab', 'brann-bronzebeard', 'elise-starseeker', 'antique-healbot', 'azure-drake', 'nexus-champion-saraad', 'antique-healbot', 'flametongue-totem']"
-paladin,Aggro,7080,"['0', '8', '5', '4', '7', '1', '2', '3']","['avenge', 'competitive-spirit', 'noble-sacrifice', 'redemption', 'shielded-minibot', 'coghammer', 'divine-favor', 'muster-for-battle', 'truesilver-champion', 'blessing-of-kings', 'consecration', 'keeper-of-uldaman', 'mysterious-challenger', 'tirion-fordring', 'secretkeeper', 'haunted-creeper', 'knife-juggler', 'piloted-shredder', 'sludge-belcher', 'dr-boom', 'ragnaros-the-firelord']"
-mage,Tempo,9160,"['0', '1', '8', '6', '3', '4', '3', '5']","['arcane-blast', 'arcane-explosion', 'flamecannon', 'frostbolt', 'duplicate', 'forgotten-torch', 'frost-nova', 'ice-block', 'echo-of-medivh', 'fireball', 'polymorph', 'ethereal-conjurer', 'blizzard', 'flamestrike', 'archmage-antonidas', 'bloodmage-thalnos', 'doomsayer', 'explosive-sheep', 'ironbeak-owl', 'mad-scientist', 'big-game-hunter', 'deathlord', 'antique-healbot', 'azure-drake', 'sludge-belcher', 'emperor-thaurissan', 'reno-jackson', 'dr-boom', 'alexstrasza', 'molten-giant', 'arcane-blast', 'ragnaros-the-firelord']"
-warlock,None,5660,"['0', '2', '5', '5', '7', '4', '3', '4']","['mortal-coil', 'darkbomb', 'dark-peddler', 'demonwrath', 'imp-gang-boss', 'hellfire', 'shadowflame', 'bane-of-doom', 'siphon-soul', 'lord-jaraxxus', 'zombie-chow', 'ironbeak-owl', 'jeweled-scarab', 'sunfury-protector', 'big-game-hunter', 'brann-bronzebeard', 'mind-control-tech', 'defender-of-argus', 'elise-starseeker', 'kezan-mystic', 'piloted-shredder', 'twilight-drake', 'antique-healbot', 'loatheb', 'sludge-belcher', 'emperor-thaurissan', 'reno-jackson', 'dr-boom', 'mountain-giant', 'molten-giant']"
-paladin,Arena,1220,"['0', '2', '7', '6', '8', '6', '0', '1']","['equality', 'argent-protector', 'shielded-minibot', 'warhorse-trainer', 'truesilver-champion', 'blessing-of-kings', 'consecration', 'abusive-sergeant', 'goldshire-footman', 'amani-berserker', 'ironbeak-owl', 'jeweled-scarab', 'argent-horserider', 'emperor-cobra', 'mind-control-tech', 'silver-hand-regent', 'cult-master', 'evil-heckler', 'mechanical-yeti', 'piloted-shredder', 'antique-healbot', 'azure-drake', 'madder-bomber', 'pit-fighter', 'venture-co-mercenary', 'captured-jormungar']"
-warlock,Control,1240,"['0', '7', '12', '3', '5', '3', '0', '0']","['power-overwhelming', 'flame-imp', 'voidwalker', 'dark-peddler', 'imp-gang-boss', 'imp-losion', 'doomguard', 'abusive-sergeant', 'dire-wolf-alpha', 'flame-juggler', 'haunted-creeper', 'ironbeak-owl', 'jeweled-scarab', 'knife-juggler', 'brann-bronzebeard', 'dark-iron-dwarf', 'defender-of-argus', 'loatheb']"
-paladin,Control,3160,"['0', '0', '8', '6', '6', '6', '0', '4']","['equality', 'aldor-peacekeeper', 'truesilver-champion', 'consecration', 'keeper-of-uldaman', 'solemn-vigil', 'lay-on-hands', 'anyfin-can-happen', 'bluegill-warrior', 'doomsayer', 'wild-pyromancer', 'acolyte-of-pain', 'murloc-warleader', 'old-murk-eye', 'antique-healbot', 'sludge-belcher']"
-priest,Aggro,1720,"['2', '9', '8', '4', '3', '2', '2', '0']","['silence', 'power-word-shield', 'northshire-cleric', 'mind-blast', 'velens-chosen', 'holy-fire', 'clockwork-gnome', 'cogmaster', 'sir-finley-mrrgglton', 'annoy-o-tron', 'mechwarper', 'micro-machine', 'spider-tank', 'gorillabot-a-3', 'piloted-shredder', 'fel-reaver']"
-priest,Tempo,6880,"['0', '6', '4', '6', '2', '6', '3', '3']","['power-word-shield', 'northshire-cleric', 'twilight-whelp', 'museum-curator', 'wyrmrest-agent', 'shadow-word-death', 'velens-chosen', 'holy-nova', 'entomb', 'lightbomb', 'cabal-shadow-priest', 'blackwing-technician', 'brann-bronzebeard', 'twilight-guardian', 'azure-drake', 'blackwing-corruptor', 'chillmaw', 'dr-boom', 'ysera']"
-priest,Control,9280,"['0', '4', '4', '3', '2', '3', '8', '6']","['holy-smite', 'power-word-glory', 'resurrect', 'shadow-word-pain', 'shadow-word-death', 'shadow-madness', 'excavated-evil', 'holy-nova', 'entomb', 'holy-fire', 'lightbomb', 'confessor-paletress', 'mind-control', 'deathlord', 'emperor-thaurissan', 'justicar-trueheart', 'dr-boom', 'ragnaros-the-firelord', 'ysera']"
-mage,Tempo,2300,"['0', '6', '8', '8', '4', '3', '0', '1']","['arcane-missiles', 'mirror-image', 'mana-wyrm', 'frostbolt', 'unstable-portal', 'sorcerers-apprentice', 'arcane-intellect', 'counterspell', 'forgotten-torch', 'mirror-entity', 'flamewaker', 'fireball', 'water-elemental', 'ethereal-conjurer', 'archmage-antonidas', 'mad-scientist', 'mind-control-tech', 'azure-drake', 'forgotten-torch', 'loatheb']"
-rogue,Midrange,6640,"['1', '3', '9', '6', '4', '4', '2', '1']","['backstab', 'eviscerate', 'fan-of-knives', 'unearthed-raptor', 'tomb-pillager', 'clockwork-gnome', 'zombie-chow', 'bloodmage-thalnos', 'haunted-creeper', 'nerubian-egg', 'unstable-ghoul', 'deathlord', 'harvest-golem', 'baron-rivendare', 'piloted-shredder', 'feugen', 'sludge-belcher', 'stalagg', 'cairne-bloodhoof', 'sylvanas-windrunner', 'dr-boom', 'unstable-ghoul', 'deathlord']"
-warlock,Combo,6580,"['0', '2', '6', '7', '6', '5', '2', '2']","['power-overwhelming', 'darkbomb', 'dark-peddler', 'demonwrath', 'imp-gang-boss', 'hellfire', 'imp-losion', 'shadowflame', 'lord-jaraxxus', 'acidic-swamp-ooze', 'ironbeak-owl', 'sunfury-protector', 'arcane-golem', 'big-game-hunter', 'brann-bronzebeard', 'earthen-ring-farseer', 'mind-control-tech', 'defender-of-argus', 'piloted-shredder', 'twilight-drake', 'antique-healbot', 'faceless-manipulator', 'leeroy-jenkins', 'loatheb', 'sludge-belcher', 'emperor-thaurissan', 'reno-jackson', 'dr-boom']"
-warlock,Aggro,2800,"['0', '8', '11', '3', '5', '3', '0', '0']","['power-overwhelming', 'flame-imp', 'voidwalker', 'dark-peddler', 'imp-gang-boss', 'void-terror', 'imp-losion', 'doomguard', 'abusive-sergeant', 'dire-wolf-alpha', 'haunted-creeper', 'ironbeak-owl', 'knife-juggler', 'nerubian-egg', 'dark-iron-dwarf', 'defender-of-argus', 'gormok-the-impaler', 'loatheb']"
-mage,Tempo,4160,"['0', '6', '9', '7', '4', '2', '0', '2']","['arcane-missiles', 'mirror-image', 'mana-wyrm', 'flamecannon', 'frostbolt', 'unstable-portal', 'sorcerers-apprentice', 'arcane-intellect', 'counterspell', 'effigy', 'mirror-entity', 'flamewaker', 'fireball', 'archmage-antonidas', 'clockwork-gnome', 'mad-scientist', 'piloted-shredder', 'azure-drake', 'dr-boom']"
-druid,Aggro,4200,"['2', '5', '6', '4', '6', '4', '2', '1']","['innervate', 'living-roots', 'darnassus-aspirant', 'druid-of-the-saber', 'savage-roar', 'mounted-raptor', 'swipe', 'keeper-of-the-grove', 'savage-combatant', 'druid-of-the-claw', 'force-of-nature', 'leper-gnome', 'sir-finley-mrrgglton', 'knife-juggler', 'piloted-shredder', 'fel-reaver', 'dr-boom']"
-warlock,Control,5640,"['0', '4', '4', '3', '6', '6', '4', '3']","['mortal-coil', 'power-overwhelming', 'darkbomb', 'dark-peddler', 'imp-gang-boss', 'hellfire', 'imp-losion', 'shadowflame', 'siphon-soul', 'twisting-nether', 'abusive-sergeant', 'zombie-chow', 'acidic-swamp-ooze', 'ironbeak-owl', 'arcane-golem', 'big-game-hunter', 'defender-of-argus', 'piloted-shredder', 'twilight-drake', 'antique-healbot', 'faceless-manipulator', 'feugen', 'loatheb', 'sludge-belcher', 'stalagg', 'emperor-thaurissan', 'reno-jackson', 'sylvanas-windrunner', 'dr-boom', 'molten-giant']"
-paladin,Midrange,5880,"['0', '1', '6', '6', '5', '5', '3', '4']","['equality', 'shielded-minibot', 'coghammer', 'muster-for-battle', 'aldor-peacekeeper', 'truesilver-champion', 'consecration', 'keeper-of-uldaman', 'murloc-knight', 'quartermaster', 'enter-the-coliseum', 'lay-on-hands', 'zombie-chow', 'acidic-swamp-ooze', 'haunted-creeper', 'ironbeak-owl', 'knife-juggler', 'acolyte-of-pain', 'big-game-hunter', 'deathlord', 'piloted-shredder', 'antique-healbot', 'loatheb', 'muklas-champion', 'sludge-belcher', 'justicar-trueheart', 'reno-jackson', 'dr-boom', 'arch-thief-rafaam', 'nefarian', 'zombie-chow', 'acolyte-of-pain', 'deathlord', 'jeweled-scarab', 'blessing-of-kings', 'solemn-vigil']"
-paladin,Midrange,7540,"['0', '2', '6', '6', '8', '4', '0', '4']","['equality', 'shielded-minibot', 'coghammer', 'muster-for-battle', 'aldor-peacekeeper', 'truesilver-champion', 'consecration', 'murloc-knight', 'quartermaster', 'lay-on-hands', 'tirion-fordring', 'zombie-chow', 'knife-juggler', 'big-game-hunter', 'kezan-mystic', 'piloted-shredder', 'loatheb', 'sludge-belcher', 'dr-boom', 'ragnaros-the-firelord']"
-warrior,None,7060,"['0', '4', '6', '7', '3', '4', '4', '2']","['execute', 'shield-slam', 'fiery-war-axe', 'armorsmith', 'cruel-taskmaster', 'shield-block', 'deaths-bite', 'brawl', 'shieldmaiden', 'gorehowl', 'doomsayer', 'explosive-sheep', 'big-game-hunter', 'brann-bronzebeard', 'coldlight-oracle', 'deathlord', 'elise-starseeker', 'antique-healbot', 'sludge-belcher', 'justicar-trueheart', 'reno-jackson', 'baron-geddon']"
-mage,Control,2300,"['0', '1', '7', '9', '5', '4', '3', '1']","['frostbolt', 'duplicate', 'forgotten-torch', 'ice-block', 'echo-of-medivh', 'polymorph', 'animated-armor', 'flame-lance', 'ethereal-conjurer', 'blizzard', 'flamestrike', 'zombie-chow', 'acidic-swamp-ooze', 'doomsayer', 'explosive-sheep', 'jeweled-scarab', 'mad-scientist', 'youthful-brewmaster', 'big-game-hunter', 'brann-bronzebeard', 'coldlight-oracle', 'deathlord', 'illuminator', 'mind-control-tech', 'refreshment-vendor', 'senjin-shieldmasta', 'antique-healbot', 'sludge-belcher', 'reno-jackson', 'sunwalker', 'doomsayer', 'youthful-brewmaster', 'deathlord', 'mind-control-tech', 'animated-armor', 'flame-lance', 'annoy-o-tron', 'arcane-intellect', 'ice-barrier', 'earthen-ring-farseer', 'kezan-mystic', 'alexstrasza']"
-warrior,Midrange,8320,"['0', '2', '8', '8', '4', '4', '0', '4']","['execute', 'fiery-war-axe', 'slam', 'alexstraszas-champion', 'cruel-taskmaster', 'bash', 'fierce-monkey', 'deaths-bite', 'grommash-hellscream', 'acolyte-of-pain', 'big-game-hunter', 'brann-bronzebeard', 'twilight-guardian', 'azure-drake', 'blackwing-corruptor', 'dr-boom', 'onyxia', 'ysera']"
-priest,None,4020,"['2', '5', '0', '10', '2', '7', '1', '3']","['circle-of-healing', 'light-of-the-naaru', 'power-word-shield', 'northshire-cleric', 'shadow-word-death', 'thoughtsteal', 'velens-chosen', 'dark-cultist', 'auchenai-soulpriest', 'holy-nova', 'mind-control', 'injured-blademaster', 'kvaldir-raider', 'loatheb', 'sludge-belcher', 'emperor-thaurissan', 'ragnaros-the-firelord', 'ysera']"
-rogue,None,320,"['4', '0', '7', '3', '7', '5', '2', '2']","['backstab', 'shadowstep', 'anubar-ambusher', 'vanish', 'acidic-swamp-ooze', 'ironbeak-owl', 'jeweled-scarab', 'youthful-brewmaster', 'brann-bronzebeard', 'shattered-sun-cleric', 'dark-iron-dwarf', 'elise-starseeker', 'gnomish-inventor', 'tomb-spider', 'darkscale-healer', 'frostwolf-warlord', 'loatheb', 'arch-thief-rafaam', 'north-sea-kraken']"
-mage,Control,6200,"['0', '1', '5', '9', '3', '4', '4', '4']","['arcane-intellect', 'frost-nova', 'ice-barrier', 'ice-block', 'polymorph', 'ethereal-conjurer', 'coldarra-drake', 'flamestrike', 'zombie-chow', 'doomsayer', 'explosive-sheep', 'mad-scientist', 'big-game-hunter', 'maiden-of-the-lake', 'antique-healbot', 'sludge-belcher', 'emperor-thaurissan', 'sylvanas-windrunner', 'alexstrasza', 'majordomo-executus']"
-paladin,None,2420,"['0', '9', '8', '8', '3', '0', '1', '1']","['avenge', 'competitive-spirit', 'noble-sacrifice', 'redemption', 'repentance', 'sacred-trial', 'shielded-minibot', 'divine-favor', 'muster-for-battle', 'aldor-peacekeeper', 'keeper-of-uldaman', 'mysterious-challenger', 'anyfin-can-happen', 'abusive-sergeant', 'grimscale-oracle', 'bluegill-warrior', 'knife-juggler', 'loot-hoarder', 'murloc-warleader', 'old-murk-eye']"
-druid,Aggro,4200,"['2', '4', '6', '4', '6', '5', '2', '1']","['innervate', 'living-roots', 'darnassus-aspirant', 'druid-of-the-saber', 'savage-roar', 'mounted-raptor', 'swipe', 'keeper-of-the-grove', 'druid-of-the-claw', 'force-of-nature', 'leper-gnome', 'knife-juggler', 'shade-of-naxxramas', 'piloted-shredder', 'fel-reaver', 'loatheb', 'dr-boom']"
-warrior,Control,13200,"['0', '4', '6', '6', '4', '3', '2', '5']","['execute', 'shield-slam', 'fiery-war-axe', 'slam', 'armorsmith', 'cruel-taskmaster', 'bash', 'shield-block', 'fierce-monkey', 'deaths-bite', 'brawl', 'grommash-hellscream', 'varian-wrynn', 'big-game-hunter', 'piloted-shredder', 'sludge-belcher', 'justicar-trueheart', 'sylvanas-windrunner', 'baron-geddon', 'dr-boom', 'ragnaros-the-firelord']"
-hunter,Control,7580,"['2', '2', '7', '8', '4', '5', '2', '0']","['hunters-mark', 'flare', 'quick-shot', 'kings-elekk', 'deadly-shot', 'powershot', 'dreadscale', 'explosive-shot', 'savannah-highmane', 'sir-finley-mrrgglton', 'zombie-chow', 'bloodmage-thalnos', 'wild-pyromancer', 'acolyte-of-pain', 'deathlord', 'piloted-shredder', 'senjin-shieldmasta', 'antique-healbot', 'azure-drake', 'harrison-jones', 'sylvanas-windrunner', 'savannah-highmane', 'arcane-shot']"
-paladin,Aggro,5380,"['0', '9', '6', '3', '6', '2', '2', '2']","['avenge', 'competitive-spirit', 'noble-sacrifice', 'redemption', 'sacred-trial', 'shielded-minibot', 'coghammer', 'muster-for-battle', 'truesilver-champion', 'blessing-of-kings', 'consecration', 'keeper-of-uldaman', 'mysterious-challenger', 'tirion-fordring', 'secretkeeper', 'haunted-creeper', 'knife-juggler', 'piloted-shredder', 'loatheb', 'sludge-belcher', 'dr-boom']"
+id,hero,type,cost
+1,druid,Midrange,6480
+2,mage,Tempo,4420
+3,warlock,Control,5380
+4,warlock,Midrange,4580
+5,paladin,Aggro,3100
+6,warrior,Midrange,9460
+7,paladin,Aggro,5760
+8,mage,Aggro,840
+9,shaman,Aggro,1840
+10,warlock,Midrange,5280
+11,priest,None,6200
+12,mage,Control,7280
+13,rogue,Combo,7420
+14,druid,Control,7260
+15,druid,Midrange,7060
+16,rogue,Aggro,6620
+17,hunter,Midrange,4700
+18,mage,Tempo,3860
+19,priest,Control,6700
+20,druid,Aggro,1740
+21,warrior,Midrange,2240
+22,hunter,Midrange,2640
+23,mage,Control,1300
+24,warlock,Combo,5280
+25,shaman,Aggro,1880
+26,shaman,Combo,4920
+27,paladin,Midrange,3960
+28,warrior,None,10600
+29,priest,Midrange,3680
+30,paladin,Midrange,7280
+31,warlock,Aggro,1560
+32,hunter,Midrange,7100
+33,warrior,Tempo,10200
+34,paladin,Midrange,3140
+35,priest,Control,3640
+36,mage,Theorycraft,7220
+37,druid,Aggro,2060
+38,hunter,Midrange,2980
+39,mage,None,4760
+40,druid,Control,6160
+41,warlock,Combo,8340
+42,mage,None,7040
+43,hunter,None,1240
+44,rogue,Control,6120
+45,paladin,Midrange,5420
+46,hunter,Control,12440
+47,mage,Control,1360
+48,rogue,None,3420
+49,warrior,Control,10440
+50,shaman,Combo,10480
+51,mage,Control,7700
+52,hunter,Midrange,4220
+53,warrior,Aggro,860
+54,warlock,Control,8560
+55,paladin,Aggro,1200
+56,mage,Control,7620
+57,druid,Combo,5080
+58,priest,Midrange,4160
+59,mage,Combo,5420
+60,paladin,Aggro,2880
+61,warlock,Control,5880
+62,rogue,Combo,5020
+63,shaman,None,6520
+64,druid,Aggro,4200
+65,hunter,Control,2920
+66,mage,Tempo,4040
+67,paladin,Control,3240
+68,priest,Control,3460
+69,shaman,Combo,4740
+70,paladin,None,4140
+71,warlock,Control,8440
+72,druid,None,3520
+73,druid,Midrange,5380
+74,paladin,Midrange,11680
+75,hunter,Control,3180
+76,paladin,Combo,2720
+77,rogue,Midrange,3840
+78,shaman,Aggro,3720
+79,shaman,Midrange,3180
+80,shaman,Control,4840
+81,mage,Tournament,5720
+82,hunter,Control,5420
+83,druid,Theorycraft,5620
+84,warlock,None,5280
+85,shaman,Midrange,8240
+86,shaman,Aggro,1880
+87,warlock,Midrange,4520
+88,priest,Tempo,6880
+89,mage,Tempo,4020
+90,mage,Aggro,3360
+91,paladin,Aggro,5380
+92,rogue,Tempo,2740
+93,warlock,Aggro,1560
+94,warlock,None,7340
+95,druid,Control,7300
+96,rogue,Combo,3900
+97,hunter,Aggro,1080
+98,priest,Control,3740
+99,hunter,Aggro,1160
+100,hunter,Midrange,2640
+101,rogue,Control,1740
+102,druid,Tempo,760

@@ -3,7 +3,7 @@ import requests
 
 url = r'http://www.hearthpwn.com/decks?page='   #osnovna stran s katere pobiramo
 
-stStrani = 20               #omejitev
+stStrani = 10               #omejitev
 
 urls = []
 for a in range(1,stStrani+1):

@@ -2,9 +2,6 @@ import re
 import csv
 
 
-
-stStrani = 20       #omejitev
-
 strani = ""
 with open('pureHTML2.txt', 'r', encoding="utf-8") as f:      #################################################    <- test  popravi v pureHTML
     strani = f.read()                                  #spet preberemo
@@ -28,17 +25,17 @@ slovar_cards = []       #z slovarji so problemi pri pisanju ne da se mi useh pop
 ID = 1
 for deck in strani_decki:
     id = ID
-    ID += 1
-    hero = re.search(vzorec_hero, deck, re.DOTALL).group(1)
-    type = re.search(vzorec_type, deck, re.DOTALL).group(1)
-    cost = re.search(vzorec_cost, deck, re.DOTALL).group(1)
+    try:                    #nekateri decki so lahko cisto pokvarjeni
+        hero = re.search(vzorec_hero, deck, re.DOTALL).group(1)
+        type = re.search(vzorec_type, deck, re.DOTALL).group(1)
+        cost = re.search(vzorec_cost, deck, re.DOTALL).group(1)
+        cards = re.search(vzorec_cards, deck, re.DOTALL).group(1)
+        cards30 = re.search(vzorec_cards30, cards, re.DOTALL).group(1)
+    except:
+        continue
     curve = []
     for a in re.findall(vzorec_curve, deck, re.DOTALL):
         curve.append(a)
-
-    cards = re.search(vzorec_cards, deck, re.DOTALL).group(1)
-    cards30 = re.search(vzorec_cards30, cards, re.DOTALL).group(1)
-
     card = []
     for a in re.findall(vzorec_card, cards30, re.DOTALL):
         card.append(a)
@@ -46,10 +43,11 @@ for deck in strani_decki:
     for a in range(30-d):
         card.append(None)
 
-
     slovar1[id] = [id, hero, type, cost]
     slovar_curve[id] = [id] + curve
     slovar_cards.append([id] + card)
+
+    ID += 1
 
 with open('CSV1.csv', 'w') as csvfile:
     fieldnames = ['id', 'hero', 'type', 'cost']
