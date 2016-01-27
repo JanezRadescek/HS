@@ -3,7 +3,7 @@ import requests
 
 url = r'http://www.hearthpwn.com/decks?page='   #osnovna stran s katere pobiramo
 
-stStrani = 3               #omejitev
+stStrani = 20               #omejitev
 
 urls = []
 for a in range(1,stStrani+1):
@@ -33,4 +33,4 @@ with open('pureHTML2.txt', 'w', encoding="utf-8") as f:
     for stran in kon_stran:
         f.write(requests.get(stran).text)
 
-        f.write("kappa123")         #locevanje
+        f.write("kappa123xyz")         #locevanje
