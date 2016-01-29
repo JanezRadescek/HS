@@ -20,8 +20,8 @@ Ogledali si bomo:
 
 * Nadražji deck type
 * Povprečen mana curve glede na type
-* Najbolj priljubljene karte glede na hero
-* TOP 10 Legendaries
+* Cena glede na hero
+* TOP 10 Cards
 
 
 
