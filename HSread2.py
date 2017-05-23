@@ -16,6 +16,8 @@ vzorec_cards = r'<aside class=(.*?)<\/aside'                     #zozimo iskanje
 vzorec_cards30 = r'(.*)<span class="icon-mana"'
 vzorec_card = r'<a href="\/cards.*?-(.*?)"'
 vzorec_curve = r'<li id="deck-bar.*?data-count="(\d+?)"'
+vzorec_mana = r'class="col-cost">(\d+?)<span'
+
 
 
 
@@ -31,21 +33,33 @@ for deck in strani_decki:
         cost = re.search(vzorec_cost, deck, re.DOTALL).group(1)
         cards = re.search(vzorec_cards, deck, re.DOTALL).group(1)
         cards30 = re.search(vzorec_cards30, cards, re.DOTALL).group(1)
+        card_mana = re.search(vzorec_mana, cards, re.DOTALL).group(1)
+
+
     except:
         continue
     curve = []
     for a in re.findall(vzorec_curve, deck, re.DOTALL):
         curve.append(a)
+
     card = []
-    for a in re.findall(vzorec_card, cards30, re.DOTALL):
-        card.append(a)
+    for a,b in zip(re.findall(vzorec_card, cards30, re.DOTALL),re.findall(vzorec_mana,cards30,re.DOTALL)):
+        card.append((a,b))
+
+
+    #nakonec dodamo none če ni 30 različnih kart
     d = len(card)
     for a in range(30-d):
         card.append(None)
 
+
     slovar1[id] = [id, hero, type, cost]
     slovar_curve[id] = [id] + curve
     slovar_cards.append([id] + card)
+
+
+    if id ==1:
+        print(slovar_cards)
 
     ID += 1
 
@@ -72,3 +86,5 @@ with open('CSV_cards.csv', 'w') as csvfile:
     wr = csv.writer(csvfile)
     wr.writerow(fieldnames)
     wr.writerows(slovar_cards)
+
+    print('haha')
