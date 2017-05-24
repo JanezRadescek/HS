@@ -1,0 +1,179 @@
+Molten Giant,3,4,9
+Arcane Giant,106,4,9
+Clockwork Giant,101,4,9
+Mountain Giant,3,4,9
+Anyfin Can Happen,104,3,9
+DOOM!,105,4,9
+Mind Control,2,2,9
+Pyroblast,3,4,9
+C'Thun,105,5,9
+Deathwing,3,5,9
+Deathwing, Dragonlord,105,5,9
+Faceless Behemoth,105,1,9
+Frost Giant,103,4,9
+Kun the Forgotten King,107,5,9
+N'Zoth, the Corruptor,105,5,9
+Sea Giant,3,4,9
+Tyrantus,108,5,9
+Ultrasaur,108,1,9
+Varian Wrynn,103,5,9
+Yogg-Saron, Hope's End,105,5,9
+Y'Shaarj, Rage Unbound,105,5,9
+Call of the Wild,105,4,9
+Tree of Life,101,4,9
+Alexstrasza,3,5,9
+Anub'arak,103,5,9
+Arch-Thief Rafaam,104,5,9
+Aviana,103,5,9
+Blade of C'Thun,105,4,9
+Blood of The Ancient One,105,4,8
+Cenarius,3,5,8
+Giant Mastodon,108,1,8
+Icehowl,103,5,8
+King Krush,3,5,8
+King Mosh,108,5,8
+Krul the Unshackled,107,5,8
+Lord Jaraxxus,3,5,8
+Majordomo Executus,102,5,8
+Mal'Ganis,101,5,8
+Malygos,3,5,8
+Mayor Noggenfogger,107,5,8
+Mekgineer Thermaplugg,101,5,8
+Nefarian,102,5,8
+North Sea Kraken,103,1,8
+Nozdormu,3,5,8
+Onyxia,3,5,8
+Ozruk,108,5,8
+Soggoth the Slitherer,105,5,8
+Volcanic Lumberer,102,3,8
+Ysera,3,5,8
+Dinosize,108,4,8
+Free From Amber,108,3,8
+Lay on Hands,3,4,8
+Twisting Nether,3,4,8
+Al'Akir the Windlord,3,5,8
+Anomalus,105,5,8
+Charged Devilsaur,108,4,8
+Chromaggus,102,5,7
+Doomcaller,105,3,7
+Eldritch Horror,105,1,7
+Foe Reaper 4000,101,5,7
+Force-Tank MAX,101,1,7
+Fossilized Devilsaur,104,1,7
+Giant Sand Worm,105,4,7
+Grommash Hellscream,3,5,7
+Gruul,3,5,7
+Ironbark Protector,2,2,7
+Kalimos, Primal Lord,108,5,7
+Kel'Thuzad,100,5,7
+Medivh, the Guardian,106,5,7
+Primordial Drake,108,4,7
+Ragnaros the Firelord,4,5,7
+Ragnaros, Lightlord,105,5,7
+Rhonin,103,5,7
+Sneed's Old Shredder,101,5,7
+The Boogeymonster,105,5,7
+Tirion Fordring,3,5,7
+Tortollan Primalist,108,4,7
+Gladiator's Longbow,3,4,7
+Gorehowl,3,4,7
+Core Hound,2,2,7
+Don Han'Cho,107,5,7
+Dr. Boom,101,5,7
+Eadric the Pure,103,5,7
+Fearsome Doomguard,103,1,7
+Flame Leviathan,101,5,7
+Gahz'rilla,101,5,7
+Giant Anaconda,108,4,7
+Grimestreet Protector,107,3,7
+Grotesque Dragonhawk,105,1,7
+Guardian of Kings,2,2,7
+Hogger, Doom of Elwynn,105,5,7
+Inkmaster Solia,107,5,7
+Jade Chieftain,107,1,7
+Knight of the Wild,103,3,7
+Malkorok,105,5,7
+Malorne,101,5,7
+Neptulon,101,5,7
+Obsidian Destroyer,104,1,7
+Prophet Velen,3,5,7
+Ravenholdt Assassin,3,3,7
+Rend Blackhand,102,5,7
+Sated Threshadon,108,1,7
+Skycap'n Kragg,103,5,7
+Stone Sentinel,108,4,7
+Stormwatcher,108,1,7
+Stormwind Champion,2,2,7
+Swamp King Dred,108,5,7
+Tar Lord,108,1,7
+The Curator,106,5,7
+Troggzor the Earthinator,101,5,7
+Twin Emperor Vek'lor,105,5,7
+Volcanosaur,108,3,7
+War Golem,2,2,7
+Avenging Wrath,3,4,6
+Ball of Spiders,103,3,6
+Blizzard,3,3,6
+Dark Bargain,103,4,6
+Dark Wispers,101,4,6
+Dragonfire Potion,107,4,6
+Enter the Coliseum,103,4,6
+Entomb,104,1,6
+Felfire Potion,107,3,6
+Holy Fire,3,3,6
+Lightbomb,101,4,6
+Meteor,108,4,6
+Moonglade Portal,106,3,6
+Recycle,101,3,6
+Siphon Soul,3,3,6
+Spikeridged Steed,108,3,6
+Starfire,2,2,6
+Thistle Tea,105,3,6
+Vanish,2,2,6
+Ancient Harbinger,105,4,6
+Ancient of Blossoms,107,1,6
+Anima Golem,101,4,6
+Archmage,2,2,6
+Argent Commander,3,3,6
+Aya Blackpaw,107,5,6
+Big-Time Racketeer,107,1,6
+Bolf Ramshield,103,5,6
+Book Wyrm,106,3,6
+Boulderfist Ogre,2,2,6
+Cabal Shadow Priest,3,4,6
+Cairne Bloodhoof,3,5,6
+Coldarra Drake,103,4,6
+Corrupted Seer,105,3,6
+Cruel Dinomancer,108,3,6
+Dark Arakkoa,105,1,6
+Defias Cleaner,107,4,6
+Drakonid Crusher,102,1,6
+Dread Infernal,2,2,6
+Emperor Thaurissan,102,5,6
+Faceless Summoner,105,1,6
+Fight Promoter,107,4,6
+Fire Elemental,2,2,6
+Frost Elemental,3,1,6
+Frozen Crusher,108,3,6
+Gadgetzan Auctioneer,3,3,6
+Gazlowe,101,5,6
+Gelbin Mekkatorque,4,5,6
+Grand Crusader,103,4,6
+Hemet, Jungle Hunter,108,5,6
+Herald Volazj,105,5,6
+Hogger,3,5,6
+Illidan Stormrage,3,5,6
+Iron Juggernaut,101,5,6
+Ivory Knight,106,3,6
+Jade Behemoth,107,1,6
+Justicar Trueheart,103,5,6
+Kabal Crystal Runner,107,3,6
+Kabal Trafficker,107,4,6
+Kidnapper,3,4,6
+Kodorider,103,4,6
+Leatherclad Hogleader,107,4,6
+Lord of the Arena,2,2,6
+Luckydo Buccaneer,107,4,6
+Madam Goya,107,5,6
+Maexxna,100,5,6
+Master Jouster,103,3,6
