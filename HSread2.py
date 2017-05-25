@@ -54,7 +54,7 @@ for deck in strani_decki:
 
 
     slovar1[id] = [id, hero, type, cost]
-    slovar_curve[id] = [id] + curve
+    #slovar_curve[id] = [id] + curve
     slovar_cards.append([id] + card)
 
 
@@ -62,6 +62,9 @@ for deck in strani_decki:
         print(slovar_cards)
 
     ID += 1
+
+
+
 
 with open('CSV1.csv', 'w') as csvfile:
     fieldnames = ['id', 'hero', 'type', 'cost']

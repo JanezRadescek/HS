@@ -22,7 +22,7 @@ vzorec_expansion = r'set-(\d+?) manual-data'
 vzorec_ime = r'a class="rarity-\d set(\w|\W)*?>((\w|\W)*?)</a>'
 vzorec_mana = r'col-cost">(\d)<span'
 
-#print(requests.get(urls[1]).text)
+print(requests.get(urls[1]).text)
 
 karte = []
 
@@ -41,10 +41,11 @@ for a in urls:
 
     for b,c,d,e in zip(ime,expansion,rarity,mana):
         print(b,c,d,e)
-        karte.append([b,c,d,e])
+        karte.append([b,c,d,e,"paladin"])
+
 
 
 with open('pureHTML2_karte.txt', 'w', encoding="utf-8") as f:
     for karta in karte:
-        f.write(",".join(karta))
+        f.write(";".join(karta))
         f.write("\n")
