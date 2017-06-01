@@ -21,8 +21,9 @@ vzorec_expansion = r'set-(\d+?) manual-data'
 #vzorec_ime = r'a class="rarity-(\d) set\*?>(\w+?)</a>'
 vzorec_ime = r'a class="rarity-\d set(\w|\W)*?>((\w|\W)*?)</a>'
 vzorec_mana = r'col-cost">(\d)<span'
+vzorec_class_vsi = r'<td class="col-class">(.*?)col-cost'
+vzorec_je_class = r'span class="class-(\w+?)"'
 
-print(requests.get(urls[1]).text)
 
 karte = []
 
@@ -32,6 +33,7 @@ for a in urls:
     expansion = re.findall(vzorec_expansion, konkretna_stran, re.DOTALL)
     rarity = re.findall(vzorec_rarity, konkretna_stran, re.DOTALL)
     mana = re.findall(vzorec_mana, konkretna_stran, re.DOTALL)
+    clasa = re.findall(vzorec_class_vsi, konkretna_stran, re.DOTALL)
 
     ime = []
     for b in imeee:
@@ -39,9 +41,14 @@ for a in urls:
         cc = re.sub(r'&#x27;','\'',b[1])
         ime.append(cc)
 
-    for b,c,d,e in zip(ime,expansion,rarity,mana):
+    for b,c,d,e,f in zip(ime,expansion,rarity,mana,clasa):
         print(b,c,d,e)
-        karte.append([b,c,d,e,"paladin"])
+        if f is None:
+            ff = "vsi"
+        else:
+            ff = re.findall(vzorec_je_class, f, re.DOTALL)
+
+        karte.append([b,c,d,e,ff])
 
 
 

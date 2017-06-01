@@ -17,7 +17,19 @@ vzorec_cards30 = r'(.*)<span class="icon-mana"'
 vzorec_card = r'<a href="\/cards.*?-(.*?)"'
 vzorec_curve = r'<li id="deck-bar.*?data-count="(\d+?)"'
 vzorec_mana = r'class="col-cost">(\d+?)<span'
+vzorec_stevilo = r'×\s(\d)\s*?<span class=.craft-cost.'
 
+
+heros = {}
+heros["druid"] = 1
+heros["hunter"] = 2
+heros["mage"] = 3
+heros["paladin"] = 4
+heros["priest"] = 5
+heros["rogue"] = 6
+heros["shaman"] = 7
+heros["warlock"] = 8
+heros["warrior"] = 9
 
 
 
@@ -28,7 +40,8 @@ ID = 1
 for deck in strani_decki:
     id = ID
     try:                    #nekateri decki so lahko cisto pokvarjeni
-        hero = re.search(vzorec_hero, deck, re.DOTALL).group(1)
+        hero1 = re.search(vzorec_hero, deck, re.DOTALL).group(1)
+        hero = heros[hero1]
         type = re.search(vzorec_type, deck, re.DOTALL).group(1)
         cost = re.search(vzorec_cost, deck, re.DOTALL).group(1)
         cards = re.search(vzorec_cards, deck, re.DOTALL).group(1)
@@ -43,8 +56,8 @@ for deck in strani_decki:
         curve.append(a)
 
     card = []
-    for a,b in zip(re.findall(vzorec_card, cards30, re.DOTALL),re.findall(vzorec_mana,cards30,re.DOTALL)):
-        card.append((a,b))
+    for a,b,c in zip(re.findall(vzorec_card, cards30, re.DOTALL),re.findall(vzorec_mana,cards30,re.DOTALL),re.findall(vzorec_stevilo,cards30, re.DOTALL)):
+        card.append((a,b,c))
 
 
     #nakonec dodamo none če ni 30 različnih kart
