@@ -17,8 +17,7 @@ vzorec_cards30 = r'(.*)<span class="icon-mana"'
 vzorec_card = r'<a href="\/cards.*?-(.*?)"'
 vzorec_curve = r'<li id="deck-bar.*?data-count="(\d+?)"'
 vzorec_mana = r'class="col-cost">(\d+?)<span'
-vzorec_stevilo = r'×\s(\d)\s*?<span class=.craft-cost.'
-
+vzorec_stevilo = r'×\s(\d)\s*?</td><td class="col'
 
 heros = {}
 heros["druid"] = 1
