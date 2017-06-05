@@ -29,6 +29,7 @@ heros["rogue"] = 6
 heros["shaman"] = 7
 heros["warlock"] = 8
 heros["warrior"] = 9
+heros["vsi"] = 123
 
 
 
@@ -72,6 +73,7 @@ for deck in strani_decki:
 
     if id ==1:
         print(slovar_cards)
+        print("\n",slovar1)
 
     ID += 1
 

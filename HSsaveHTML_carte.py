@@ -4,7 +4,7 @@ import requests
 #url = r'http://www.hearthpwn.com/decks?page='   #osnovna stran s katere pobiramo
 url = r'http://www.hearthpwn.com/cards?display=1&filter-premium=1&page='
 
-stStrani = 2               #omejitev
+stStrani = 12               #omejitev
 
 urls = []
 for a in range(1,stStrani+1):
@@ -42,13 +42,17 @@ for a in urls:
         ime.append(cc)
 
     for b,c,d,e,f in zip(ime,expansion,rarity,mana,clasa):
-        print(b,c,d,e)
-        if f is None:
-            ff = "vsi"
-        else:
-            ff = re.findall(vzorec_je_class, f, re.DOTALL)
+        #ff je kratek izsek kjer se morda nahaja ime classe
+        ff = re.findall(vzorec_je_class, f, re.DOTALL)
 
-        karte.append([b,c,d,e,ff])
+        if ff.__len__() == 0:
+            fff = "vsi"
+        else:
+            fff = ff[0]
+
+        karte.append([b,c,d,e,fff])
+
+
 
 
 
@@ -56,3 +60,5 @@ with open('pureHTML2_karte.txt', 'w', encoding="utf-8") as f:
     for karta in karte:
         f.write(";".join(karta))
         f.write("\n")
+
+
