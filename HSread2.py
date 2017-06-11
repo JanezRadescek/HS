@@ -46,7 +46,7 @@ for deck in strani_decki:
         cost = re.search(vzorec_cost, deck, re.DOTALL).group(1)
         cards = re.search(vzorec_cards, deck, re.DOTALL).group(1)
         cards30 = re.search(vzorec_cards30, cards, re.DOTALL).group(1)
-        card_mana = re.search(vzorec_mana, cards, re.DOTALL).group(1)
+        #card_mana = re.search(vzorec_mana, cards, re.DOTALL).group(1)
 
 
     except:

@@ -100,3 +100,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 .ipynb_checkpoints/Untitled-checkpoint.ipynb
+auth.py
+bottle.py
+CSV3.csv
+HSread2.py
+HSread2.py
