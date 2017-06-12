@@ -59,27 +59,30 @@ for deck in strani_decki:
     for ime,mana,stevilo in zip(re.findall(vzorec_card, cards30, re.DOTALL),re.findall(vzorec_mana,cards30,re.DOTALL),re.findall(vzorec_stevilo,cards30, re.DOTALL)):
         card.append((ime,mana,stevilo))
 
-    #nakonec dodamo none če ni 30 različnih kart
-    d = len(card)
-    for a in range(30-d):
-        card.append(None)
-
-
     slovar1[ID] = [ID, hero, cost, card]
 
     ID += 1
 
 
+
+
+
+
+
 #ponjenje baze
 
-#vrne zadni id
+#vrne zadni id se pravi id decka, ki smo ga ravnokar not dali
 def getIDdecka():
     cur.execute("SELECT id FROM deck ORDER BY id desc LIMIT 1")
-    return cur[0]
+    for id in cur:
+        return id
 
+#vzame ime in vrne id karte
 def getIDkarte(imekarte):
-    cur.execute("SELECT id FROM karte WHERE ime = (%s)",[imekarte])
-    return cur[0]
+    imekarte = re.sub('-','',imekarte)
+    cur.execute("SELECT id FROM karte WHERE regexp_replace(lower(ime), '[^a-zA-Z0-9]+', '', 'g') = (%s)",[imekarte])
+    for id in cur:
+        return id
 
 
 
@@ -87,17 +90,26 @@ conn = psycopg2.connect(database=auth.db, host=auth.host, user=auth.user, passwo
 conn.set_isolation_level(psycopg2.extensions.ISOLATION_LEVEL_AUTOCOMMIT) # onemogocimo transakcije
 cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-ime = 1
-for row in slovar1:
-    #vnesemo ime v bazo. rabimo id za to da lahko napolnimo tabelo kartajevdecku
-    cur.execute("INSERT INTO deck (ime,avtor) VALUES (%s,%s);", [str(ime),str(ime)])
-    IDdecka = getIDdecka()
-    for karta1 in row[3]:
-        imekarte = karta1[1]
+
+for a in slovar1:
+    #vnesemo ime v bazo. rabimo id za to da lahko napolnimo tabelo jevdecku
+    row = slovar1[a]  #a je samo ključ
+    slabdeck = False
+    karte = []
+    for karta1 in row[3]: #v 3 so karte
+        imekarte = karta1[0]
         IDkarte = getIDkarte(imekarte)
-        cur.execute("INSERT INTO jevdecku (karta,deck,stevilo) VALUES (%s,%s,%s);",[IDkarte,IDdecka,karta1[2]])
+        if IDkarte is None:
+            slabdeck = True
+            break
+        karte.append([IDkarte[0],karta1[2]])
 
-    ime += 1
 
-
-print("hahahah")
+    if slabdeck:
+        pass
+    else:
+        cur.execute("INSERT INTO deck (ime,avtor) VALUES (%s,%s);", ['unknown', 'unknown'])
+        IDdecka = getIDdecka()
+        for karta1 in karte:
+            cur.execute("INSERT INTO jevdecku (karta,deck,stevilo) VALUES (%s,%s,%s);",
+                        [karta1[0], IDdecka[0], karta1[1]])
